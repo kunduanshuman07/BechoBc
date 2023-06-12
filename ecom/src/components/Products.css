@@ -1,0 +1,32 @@
+.product {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.productCard {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.productCard h2 {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.productCard p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #555555;
+}
+.productImage{
+    margin-left: 100px;
+    margin-bottom: 30px;
+    width: 150px;
+    height: 150px;
+}

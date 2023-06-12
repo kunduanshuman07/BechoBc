@@ -1,0 +1,43 @@
+.content {
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    height: 570px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #fff;
+    background-color: #ece9e9;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+a,
+button {
+    transition: all 0.3s ease;
+}
